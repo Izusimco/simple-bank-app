@@ -1,0 +1,51 @@
+div.depwith{
+    text-align: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.mybank{
+    font-size: x-small;
+    color: blue;
+}
+h1{
+    text-align: center;
+}
+
+.btnaction{
+    text-align: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.counter1{
+    color: green;
+}
+.counter2{
+    color: red;
+}
+.addbtn{
+    color: green;
+}
+.subbtn{
+    color: red;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    div.depwith {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .btnaction {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
